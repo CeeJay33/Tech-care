@@ -684,7 +684,7 @@ export default {
     try {
       let response = await axios({
         method: 'get',
-        url: 'https://fedskillstest.coalitiontechnologies.workers.dev/', 
+        url: '/api.json', 
         headers: {
           "Content-Type": "application/json",
           "Authorization": `Basic ${credentials}`
