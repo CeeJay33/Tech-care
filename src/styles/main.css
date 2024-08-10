@@ -1145,34 +1145,20 @@ body {
 
 /* Responsive styles for mobile phones */
 @media only screen and (max-width: 600px) {
-    .navigation__body__section {
+    .navigation__body__section{
+        display: none;
+    }
+
+      .grid__layout__section {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        padding: 1rem;
-    }
-
-    .nav__links__section {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
-
-    .nav__links__section .lists {
-        justify-content: center;
-        width: 100%;
-        padding: 10px;
-    }
-
-    .grid__layout__section {
-        grid-template-columns: 1fr;
+        gap: var(--gap-size);
     }
 
     .grid__layout__left,
     .grid__layout__Middle,
     .grid__layout__right {
-        grid-column: auto;
-        grid-row: auto;
+        width: 100%;
         margin: 0;
         border: none;
         max-height: none;
