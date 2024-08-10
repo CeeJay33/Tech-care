@@ -776,14 +776,15 @@ opacity: 1;
 .rate__history__section{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .rate__history__section .respiratory__rate{
     background: #E0F3FA 0% 0% no-repeat padding-box;
 border-radius: 12px;
 opacity: 1;
-width: 160px;
+width: 190px;
 padding: 0.5rem 1rem;
 margin: 1rem 0.2rem;
 }
@@ -792,7 +793,7 @@ margin: 1rem 0.2rem;
     background: #FFE6E9 0% 0% no-repeat padding-box;
     border-radius: 12px;
     opacity: 1;
-    width: 160px;
+    width: 190px;
 
     padding: 0.5rem 1rem;
     margin: 1rem 0.2rem;
@@ -802,7 +803,7 @@ margin: 1rem 0.2rem;
     background: #FFE6F1 0% 0% no-repeat padding-box;
     border-radius: 12px;
     opacity: 1;
-    width: 160px;
+    width: 190px;
     padding: 0.5rem 1rem;
     margin: 1rem 0.2rem;
 }
